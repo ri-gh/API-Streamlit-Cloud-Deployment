@@ -1,11 +1,7 @@
-python-multipart
+python
 fastapi 
-uvicorn[standard]
-pydantic 
+pydantic
 typing 
 openpyxl
-gunicorn 
-mlflow 
-boto3 
 sklearn
 numpy
