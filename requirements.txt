@@ -1,5 +1,6 @@
 fastapi 
 typing 
 openpyxl
+pydantic
 sklearn
 numpy
