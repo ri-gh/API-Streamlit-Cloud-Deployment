@@ -1,5 +1,3 @@
-pip == 23
-python
 fastapi 
 typing 
 openpyxl
