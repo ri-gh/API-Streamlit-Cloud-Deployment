@@ -282,9 +282,3 @@ async def predict(predictionFeatures: PredictionFeatures):
     response = {"prediction rental price per day": prediction.tolist()}
     return response
 
-
-#on utilise le serveur uvicorn pour faire tourner notre instance de FastApi
-#heroku n'accepte que les serveurs gunicorn
-
-if __name__=="__main__":
-    uvicorn.run(app, host="0.0.0.0", port=4000, debug=True, reload=True)
